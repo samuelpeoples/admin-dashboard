@@ -12,20 +12,39 @@
 
 	<body>
 		<header>
-			<div class="header-content">
-				<div>QUOTE OF THE DAY</div>
-				<div>ICON</div>
-				<div>NAME</div>
-			</div>
-			<div class="header-content">
-				<div>SEARCH</div>
-				<div>POST</div>
-				<div>GET</div>
-			</div>
+			<form class="header-content">
+				<div class="search">
+					<img
+						style="height: 30px; padding-right: 5px"
+						src="./images/search-web.svg"
+						alt="search-icon" />
+					<input
+						type="text"
+						name="search-box"
+						id="search-box"
+						placeholder="What's on today..." />
+				</div>
+
+				<button type="button" name="profile-img">ICON</button>
+				<button type="button">NAME</button>
+			</form>
+			<form class="header-content">
+				<div
+					style="
+						text-align: left;
+						overflow: hidden;
+						text-wrap: nowrap;
+					">
+					"Live your best life..." - Dave, probably
+				</div>
+
+				<button type="button" name="yell-btn">Yell</button>
+				<button type="button" name="share-btn">Share</button>
+			</form>
 		</header>
 		<nav class="sidebar">
 			<div class="company-logo">
-				<div style="font-weight: bold; font-size: 1.4rem;">BUSHWRLD</div>
+				<div style="font-weight: bold; font-size: 1.4rem">BUSHWRLD</div>
 			</div>
 			<div class="nav-group">
 				<div class="sidebar-content">Home</div>
@@ -40,8 +59,10 @@
 				<div class="sidebar-content">Pets</div>
 			</div>
 		</nav>
-		<main class="hero">
+		<main>
 			<div class="main-content">
+				<section class="card"></section>
+				<section class="card"></section>
 				<section class="card"></section>
 				<section class="card"></section>
 				<section class="card"></section>
@@ -49,12 +70,21 @@
 				<section class="card"></section>
 			</div>
 			<article class="announcements">
-				HI
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
 			</article>
 			<article class="trending">
-				HI
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
+				<section class="card"></section>
 			</article>
 		</main>
-		
 	</body>
 </html>
